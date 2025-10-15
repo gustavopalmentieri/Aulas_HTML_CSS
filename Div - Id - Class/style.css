@@ -1,0 +1,104 @@
+h1 { /*Tudo que estiver dentro dessa TAG será estilizado*/
+
+    color: blue; /*Nessa linha eu altero a cor do texto*/
+    background-color: yellow; /*Altera a cor do fundo*/
+    border: 5px solid #111; /*E a borda em volta do texto, "SOLID" é o estilo da borda*/
+    text-align: center; /*Centralizo o texto da minha página*/
+    padding: 10px;     /*Aumenta ou diminui o espaçamento interno da borda*/
+    margin: 20px;    /*E a margem aumenta ou diminui o espaçamento de fora da borda*/
+    border-radius: 100px; /*Define o raio dos cantos da borda*/
+
+}
+
+p{
+    font-size: 16px; /*E o tamanho da fonte do texto*/
+    color: dimgray; /*E a cor do texto*/
+    font-family: 'Times New Roman', Times, serif; /*E a fonte do texto escrito*/
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+img{
+    width: 300px; /*Modifico o tamanho da imagem*/
+    height: 400px;
+    border: solid 2px violet;
+    border-radius: 20%;
+
+}
+
+#especial { /*Esse eu to estilizando com o "ID", apenas o páragrafo que eu identifiquei como "especial".*/
+
+    color: blue
+
+}
+
+.estilo1{ /*Esse eu to estilizando com o "CLASS", apenas os páragrafos que eu identifiquei como "estilo1".*/
+
+    color: blueviolet
+}
+
+#container { /*Esse eu to estilizando a DIV, apenas o que estiver dentro da DIV será modificado.*/
+
+    background-color: aquamarine;
+}
+
+#interna1 {
+
+    background-color: cornflowerblue;
+
+}
+
+#interna2 {
+
+    background-color: rebeccapurple;
+
+}
+
+/* -------------------- ESTILIZANDO AS DIV INTERNAS -----------------------*/
+
+#container2 { /*Esse eu to estilizando a DIV, apenas o que estiver dentro da DIV será modificado.*/
+
+    background-color: aquamarine;
+    height: auto; /*No "AUTO" ele se encaixa no tamanho que precisar*/
+}
+
+#interna3 {
+
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px; /*O espaço entre eles e a margem*/
+    display: inline-block; /*Ele coloca os blocos um do lado do outro ou em baixo do outro (DEPENDENDO DO TAMANHO DA TELA)*/
+}
+
+#interna4 {
+
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.container2{
+    font-size: 12px;
+    width: 300px;
+    height: auto;
+    background-color: aquamarine;
+
+}
+
+.flutuante {
+    background-color: rebeccapurple;
+    float: left; /*Esse que faz a função de "Flutuante". (LEFT - DIREITA E RIGHT - ESQUERDA)*/
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+
+#elemento{
+
+    color: white; /*Utilizei isso para que eu possa formatar de forma certa a cor, pois la em cima ele ia pegar a estrutura do páragrafo*/
+}
