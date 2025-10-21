@@ -1,0 +1,20 @@
+.container{
+
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 5px;
+}
+
+.item{
+
+    background: lightgray;
+    text-align: center;
+}
+
+.item-2{
+
+    grid-column: 1 / 3; /*Se trata da linha de grade (1 / 3), a part
+    ir do traço 1 até o 3, o elemento vai ocupar esse espaço*/
+}
